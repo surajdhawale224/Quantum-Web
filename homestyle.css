@@ -1,0 +1,301 @@
+.navlist {
+    float: right;
+    margin: 35px 35px 0px 0px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#searchic {
+    margin: 12px;
+    height: 25px;
+}
+
+input[type=text]::-webkit-inner-spin-button {
+    opacity: 1
+}
+
+a {
+    margin: 0px 10px;
+}
+
+.navcolor {
+    color: white;
+}
+
+.main {
+    background-color: #000d28;
+    font-family: arial;
+}
+
+header::before {
+    background: url('./images/First.png') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.firstText {
+    width: 35%;
+    padding: 20px;
+    margin: 116px 0px 0px 185px;
+    color: white;
+}
+
+.first-btn {
+    color: rgb(65, 63, 63);
+    padding: 5px;
+    width: 60%;
+    margin: 35px 0px 0px 0px;
+    height: 39px;
+}
+
+.secondText {
+    padding: 20px;
+}
+
+.secondgrid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-sm {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.col-sm p {
+    width: 260px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/* Sections */
+.secondsecw {
+    background: white;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    padding: 20rem 3%;
+}
+
+.forthsecw {
+    background: white;
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+    padding: 80px 30px 5px 30px;
+}
+.bullet{
+    width: 2vw;
+    margin: -4px -6px 0px -31px;
+}
+.thirdText {
+    color: white;
+    margin: 50px;
+    padding: 30px;
+    display: flex;
+}
+
+.thirdImg {
+    width: 40vw;
+
+}
+
+.thirdText h2 {
+    width: 50%;
+}
+
+.thirdPara {
+    margin: 35px 0px 0px 45px;
+    width: 50%;
+    padding: 5px;
+}
+
+#thirdP {
+    font-size: 18px;
+}
+
+.third-btn {
+    color: rgb(65, 63, 63);
+    padding: 8px;
+    width: 21vw;
+    margin: 35px 0px 0px 42px;
+}
+
+.fourthText {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px 5px 40px;
+
+}
+
+iframe {
+    width: 45vw;
+    height: 45vh;
+}
+
+.footer {
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.fourthRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col- p {
+    width: 61%;
+}
+
+.colP {
+    margin-left: 30px;
+    padding-left: 30px;
+}
+
+#socialicon {
+    height: 60px;
+    margin: 20px 10px 0px -13px;
+}
+
+hr {
+    color: grey;
+}
+
+.fifthText {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerinput {
+    padding: 10px;
+    width: 20vw;
+    border: 1px solid gray;
+    background-image: url('./images/arrow2.svg');
+    background-repeat: no-repeat;
+    background-size: 30px 20px;
+    background-position: right center;
+    padding-right: 45px;
+}
+.footermob {
+    display: flex;
+}
+.tosecw {
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+}
+.copywrite{
+    margin-top: 97px;
+}
+.copypara {
+    margin: 0 0 5px;
+}
+ 
+/* Hex1 */
+/* .hex1di{
+    margin: -152px 192px 0px 0px;
+    float: right;
+
+}
+.hex1{
+    width: 13vw;
+} */
+/* Media Query For Mobile View */
+@media only screen and (max-width: 768px) {
+    .secondgrid {
+        display: block;
+    }
+
+    .navbar-nav {
+        display: flex;
+    }
+
+    .firstText {
+        width: auto;
+        padding: 20px;
+        margin: 58px 0px 0px 38px;
+        color: white;
+    }
+
+    .fourthRow {
+        display: block;
+        /* justify-content: space-between; */
+    }
+
+    .secondText {
+        margin-left: 45px;
+    }
+
+    .thirdText {
+        display: block;
+    }
+
+    .thirdText h2 {
+        width: auto;
+    }
+
+    .thirdPara {
+        width: auto;
+    }
+
+    .third-btn {
+        width: 46vw;
+        margin: 35px 0px 35px 50px;
+    }
+
+    .thirdImg {
+        margin: 10px 0px -40px -14px;
+        width: 70vw;
+    }
+
+    iframe {
+        width: 84vw;
+        height: 17vh;
+        margin: 16px 0px 0px -49px;
+    }
+
+    .footermob {
+        display: flex;
+        margin: 40px 0px 0px -6px;
+    }
+
+    .colP {
+        margin-left: -23px;
+        padding-left: 0px;
+    }
+    .hex1di {
+        margin: -61px 55px 0px 0px;
+    }
+    .hex1{
+        width: auto;
+    }
+    .row {
+        margin-right: -49px;
+        margin-left: 23px;
+    }
+    .footerinput {
+        height: 23px;
+        padding: 3px;
+        width: 29vw;
+        background-size: 16px 8px;
+        padding-right: 18px;
+        font-size: 9px;
+    }
+    .fifthText{
+        font-size: 13px;
+    }
+    .copywrite{
+        margin: 0px 10px 0px -33px;
+    }
+    .copywrite1{
+        margin: 0px 15px;
+    }
+    .copypara {
+        margin: 0 0 0px;
+    }
+    .bullet {
+        width: 7vw;
+        margin: -2px -6px 0px -31px;
+    }
+}

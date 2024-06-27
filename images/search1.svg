@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1440" width="1440" height="1440">
+	<title>Vector Smart Object-ai</title>
+	<style>
+		.s0 { fill: none;stroke: #000000;stroke-linecap: round;stroke-miterlimit:10;stroke-width: 60 } 
+		.s1 { fill: #000000 } 
+	</style>
+	<g id="Layer 1">
+		<path id="&lt;Path&gt;" class="s0" d="m986 672.6c0 198.2-160.6 358.8-358.8 358.8-198.1 0-358.8-160.6-358.8-358.8 0-198.2 160.7-358.8 358.8-358.8 198.2 0 358.8 160.6 358.8 358.8z"/>
+		<path id="&lt;Path&gt;" class="s1" d="m856.3 960.5l175.3 210.7c0 0 52 79 112.2 18.9 0 0 63.2-54.1 8.1-103.5l-234.4-192.1"/>
+	</g>
+</svg>
